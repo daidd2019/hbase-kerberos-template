@@ -10,7 +10,7 @@ public class HbaseInsert {
 
     public static void main(String[] args) throws IOException {
 
-        Integer rows  = 100000000;
+        Integer rows  = 100;
         if (args.length == 1) {
             log.info("insert rows " + args[0]);
             rows = Integer.parseInt(args[0]);
